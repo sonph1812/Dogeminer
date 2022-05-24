@@ -10,6 +10,7 @@ let diamondIM = new Image();
 diamondIM.src = "images/diamond.png";
 
 class gold {
+    speed;
     constructor(game) {
         this.game = game;
         this.init();

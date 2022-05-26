@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d5d5fb8-1701-4edb-a0a5-3ca2b9f507f9" name="Changes" comment="" />
+    <list default="true" id="0d5d5fb8-1701-4edb-a0a5-3ca2b9f507f9" name="Changes" comment="first add">
+      <change afterPath="$PROJECT_DIR$/image/background-new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/dollar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/hook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/level.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/miner.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/stone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/target.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/gold.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/gold.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,10 +29,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="29cWbgIsHtjjH8HAvCuAfsHi0RD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,6 +48,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/image" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -57,10 +75,82 @@
       <workItem from="1653413431872" duration="44000" />
       <workItem from="1653413488347" duration="63000" />
       <workItem from="1653413570385" duration="264000" />
+      <workItem from="1653413858763" duration="649000" />
+      <workItem from="1653415390157" duration="188000" />
+      <workItem from="1653415619863" duration="116000" />
+      <workItem from="1653416003850" duration="218000" />
+      <workItem from="1653416413529" duration="396000" />
+      <workItem from="1653416899760" duration="257000" />
+      <workItem from="1653418130868" duration="245000" />
+      <workItem from="1653418459232" duration="2000" />
+      <workItem from="1653418468400" duration="722000" />
+      <workItem from="1653442203402" duration="35000" />
+      <workItem from="1653442266306" duration="7000" />
+      <workItem from="1653442412163" duration="8000" />
+      <workItem from="1653442456999" duration="12000" />
+      <workItem from="1653443156649" duration="83000" />
+      <workItem from="1653443760748" duration="2000" />
+      <workItem from="1653443770613" duration="7000" />
+      <workItem from="1653444865222" duration="177000" />
+      <workItem from="1653448100730" duration="178000" />
+      <workItem from="1653448281909" duration="117000" />
+      <workItem from="1653448477736" duration="131000" />
+      <workItem from="1653449047812" duration="225000" />
+      <workItem from="1653449287230" duration="686000" />
+      <workItem from="1653450258629" duration="164000" />
+      <workItem from="1653451019071" duration="5000" />
+      <workItem from="1653451586844" duration="288000" />
+      <workItem from="1653454080927" duration="682000" />
+      <workItem from="1653454988294" duration="89000" />
+      <workItem from="1653455981446" duration="102000" />
+      <workItem from="1653456526872" duration="8000" />
+      <workItem from="1653462115490" duration="11000" />
+      <workItem from="1653462130363" duration="2000" />
+      <workItem from="1653471233144" duration="97000" />
+      <workItem from="1653472554945" duration="101000" />
+      <workItem from="1653473323615" duration="46000" />
+      <workItem from="1653526446953" duration="217000" />
+      <workItem from="1653528923339" duration="104000" />
+      <workItem from="1653529140122" duration="60000" />
+      <workItem from="1653529473416" duration="117000" />
+      <workItem from="1653529626401" duration="33000" />
+      <workItem from="1653530035457" duration="150000" />
+      <workItem from="1653530344549" duration="88000" />
+      <workItem from="1653530613240" duration="64000" />
+      <workItem from="1653532110470" duration="31000" />
+      <workItem from="1653534705867" duration="5000" />
+      <workItem from="1653535459138" duration="186000" />
+      <workItem from="1653536691821" duration="7000" />
+      <workItem from="1653536735465" duration="15000" />
+      <workItem from="1653536762953" duration="1000" />
+      <workItem from="1653537367725" duration="10000" />
     </task>
+    <task id="LOCAL-00001" summary="first add">
+      <created>1653418601128</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653418601128</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first add" />
+    <option name="LAST_COMMIT_MESSAGE" value="first add" />
   </component>
 </project>

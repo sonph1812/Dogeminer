@@ -8,9 +8,12 @@ let stoneIm = new Image();
 stoneIm.src = "image/stone.png";
 let diamondIM = new Image();
 diamondIM.src = "image/diamond.png";
+let minerIM = new Image()
+minerIM.src = "image/miner.jpeg"
 
 class gold {
     speed;
+
     constructor(game) {
         this.game = game;
         this.init();
@@ -78,16 +81,16 @@ class gold {
                 this.IM = diamondIM;
                 this.score = 600;
                 break;
-                c
+
         }
     }
+
     randomXY() {
         this.x = 2 * this.game.getWidth() + Math.random() * (game_W - 4 * this.game.getWidth());
         this.y = 2 * this.game.getWidth() + game_H / 3 + Math.random() * (2 * game_H / 3 - 4 * this.game.getWidth());
     }
 
     draw() {
-        // this.game.rotate(0);
         this.game.context.drawImage(this.IM, this.x - this.width / 2, this.y - this.height / 2, this.width, this.height);
     }
 

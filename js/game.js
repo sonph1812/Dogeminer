@@ -1,5 +1,5 @@
-let game_W =100;
-let game_H = 100;
+let game_W = 500;
+let game_H = 500;
 let XXX = 0, YYY = 0, Xh = 0, Yh = 0;
 let MaxLeng = 0;
 let speedReturn = 0
@@ -11,25 +11,29 @@ let angle = 90;
 let ChAngle = -1;
 index = -1;
 level = -1;
-time = 60;
+time = 20;
 tager = 0;
 timeH = 0;
 vlH = 0;
 var bg = new Image();
-bg.src="image/background-new.png";
+bg.src = "image/background-new.png";
 var hook = new Image();
-hook.src="image/hook.png";
+hook.src = "image/hook.png";
 var targetIM = new Image();
-targetIM.src="image/target.png";
+targetIM.src = "image/target.png";
 var dolarIM = new Image();
-dolarIM.src="image/dollar.png";
+dolarIM.src = "image/dollar.png";
 var levelIM = new Image();
-levelIM.src="image/level.png";
+levelIM.src = "image/level.png";
 var clockIM = new Image();
-clockIM.src="image/clock.png";
+clockIM.src = "image/clock.png";
 
 
 let N = -10;
+
+
+
+
 
 class game {
     constructor() {
@@ -62,8 +66,8 @@ class game {
         drag = false;
         timeH = -1;
         vlH = 0;
-        time = 60;
-        level ++;
+        time = 20;
+        level++;
         tager = (level + 1) * 1000 + level * level * 120;
         this.initGold();
     }
@@ -159,7 +163,7 @@ class game {
             game_W = this.canvas.width;
             game_H = this.canvas.height;
             XXX = game_W / 2;
-            YYY = game_H * 0.18;
+            YYY = game_H * 0.2;
             R = this.getWidth() * 2;
             if (!drag)
                 r = R;
@@ -178,7 +182,7 @@ class game {
             }
 
         this.context.beginPath();
-        this.context.strokeStyle  = "#d9b800";
+        this.context.strokeStyle = "rgba(216,229,21,0.73)";
         this.context.lineWidth = Math.floor(this.getWidth() / 10);
         this.context.moveTo(XXX, YYY);
         this.context.lineTo(Xh, Yh);
@@ -191,7 +195,7 @@ class game {
         this.context.save();
         this.context.translate(Xh, Yh);
         this.context.rotate(this.toRadian(angle - 90));
-        this.context.drawImage(hook, - this.getWidth() / 4,- this.getWidth() / 8, this.getWidth() / 2, this.getWidth() / 2);
+        this.context.drawImage(hook, -this.getWidth() / 4, -this.getWidth() / 8, this.getWidth() / 2, this.getWidth() / 2);
         this.context.restore();
 
         this.drawText();
@@ -201,22 +205,22 @@ class game {
         this.context.drawImage(dolarIM, this.getWidth() / 2, this.getWidth() / 2, this.getWidth(), this.getWidth());
         this.context.fillStyle = "red";
         if (this.score > tager)
-            this.context.fillStyle = "#00beff";
+            this.context.fillStyle = "rgba(216,229,21,0.73)";
         this.context.font = this.getWidth() + 'px Stencil';
         this.context.fillText(this.score, this.getWidth() * 1.5, this.getWidth() * 1.35);
 
         this.context.drawImage(targetIM, this.getWidth() / 2, this.getWidth() / 2 + this.getWidth(), this.getWidth(), this.getWidth());
-        this.context.fillStyle = "#00beff";
+        this.context.fillStyle = "rgba(252,98,67,0.59)";
         this.context.font = this.getWidth() + 'px Stencil';
         this.context.fillText(tager, this.getWidth() * 1.5, this.getWidth() * 2.35);
 
         this.context.drawImage(levelIM, game_W - 3 * this.getWidth(), this.getWidth() / 2, this.getWidth(), this.getWidth());
-        this.context.fillStyle = "#00beff";
+        this.context.fillStyle = "rgba(234,169,6,0.45)";
         this.context.font = this.getWidth() + 'px Stencil';
         this.context.fillText(level + 1, game_W - 2 * this.getWidth(), this.getWidth() * 1.35);
 
         this.context.drawImage(clockIM, game_W - 3 * this.getWidth(), this.getWidth() / 2 + this.getWidth(), this.getWidth(), this.getWidth());
-        this.context.fillStyle = "#00beff";
+        this.context.fillStyle = "#c800ff";
         this.context.font = this.getWidth() + 'px Stencil';
         this.context.fillText(Math.floor(time), game_W - 2 * this.getWidth(), this.getWidth() * 2.35);
 

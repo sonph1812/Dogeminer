@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d5d5fb8-1701-4edb-a0a5-3ca2b9f507f9" name="Changes" comment="first add">
-      <change afterPath="$PROJECT_DIR$/image/background-new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/clock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/dollar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/hook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/level.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/miner.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/stone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/target.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/catch.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/miss.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/nhac.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/Doge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/TNT.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/game.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/gold.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/gold.js" afterDir="false" />
@@ -23,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -46,13 +44,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/image" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/audio" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/audio" />
       <recent name="$PROJECT_DIR$/image" />
     </key>
   </component>
@@ -124,6 +123,16 @@
       <workItem from="1653536735465" duration="15000" />
       <workItem from="1653536762953" duration="1000" />
       <workItem from="1653537367725" duration="10000" />
+      <workItem from="1653538148386" duration="114000" />
+      <workItem from="1653539448935" duration="12000" />
+      <workItem from="1653539464247" duration="49000" />
+      <workItem from="1653549739473" duration="174000" />
+      <workItem from="1653553181366" duration="437000" />
+      <workItem from="1653555849829" duration="1411000" />
+      <workItem from="1653557320174" duration="27000" />
+      <workItem from="1653557693643" duration="1701000" />
+      <workItem from="1653613541708" duration="2157000" />
+      <workItem from="1653617587974" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="first add">
       <created>1653418601128</created>
@@ -132,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653418601128</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first add">
+      <created>1653538170713</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653538170713</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

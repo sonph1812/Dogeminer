@@ -14,6 +14,8 @@ class gold {
     constructor(game) {
         this.game = game;
         this.init();
+
+
     }
 
     init() {
@@ -76,6 +78,7 @@ class gold {
                 this.IM = diamondIM;
                 this.score = 600;
                 break;
+                c
         }
     }
     randomXY() {

@@ -37,6 +37,7 @@ class game {
         this.context = null;
         this.score = 0;
         this.init();
+
     }
 
     init() {
@@ -70,6 +71,7 @@ class game {
     listenKeyboard() {
         document.addEventListener("keydown", key => {
             this.solve();
+            // this.audio1.play()
         })
     }
 
@@ -86,6 +88,7 @@ class game {
             speedReturn = this.getWidth() / 2;
             index = -1;
         }
+        // this.audio.play()
     }
 
     loop() {

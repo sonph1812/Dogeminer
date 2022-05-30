@@ -69,7 +69,7 @@ class game {
         drag = false;
         timeH = -1;
         vlH = 0;
-        time = 10;
+        time = 30;
         level++;
         tager = (level + 1) * 1000 + level * level * 120;
         this.initGold();

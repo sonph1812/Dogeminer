@@ -11,21 +11,21 @@ let angle = 90;
 let ChAngle = -1;
 index = -1;
 level = -1;
-time = 20;
+time = 30;
 tager = 0;
 timeH = 0;
 vlH = 0;
-var bg = new Image();
+let bg = new Image();
 bg.src = "image/background-new.png";
-var hook = new Image();
+let hook = new Image();
 hook.src = "image/hook.png";
-var targetIM = new Image();
+let targetIM = new Image();
 targetIM.src = "image/target.png";
-var dolarIM = new Image();
+let dolarIM = new Image();
 dolarIM.src = "image/dollar.png";
-var levelIM = new Image();
+let levelIM = new Image();
 levelIM.src = "image/level.png";
-var clockIM = new Image();
+let clockIM = new Image();
 clockIM.src = "image/clock.png";
 
 
@@ -41,6 +41,8 @@ class game {
         this.context = null;
         this.score = 0;
         this.init();
+        this.audio = new Audio("audio/game-lose-sound.mp3")
+
 
     }
 
@@ -55,6 +57,7 @@ class game {
         this.loop();
         this.listenKeyboard();
         this.listenMouse();
+
     }
 
     newGold() {
@@ -66,7 +69,7 @@ class game {
         drag = false;
         timeH = -1;
         vlH = 0;
-        time = 20;
+        time = 10;
         level++;
         tager = (level + 1) * 1000 + level * level * 120;
         this.initGold();
@@ -75,7 +78,6 @@ class game {
     listenKeyboard() {
         document.addEventListener("keydown", key => {
             this.solve();
-            // this.audio1.play()
         })
     }
 
@@ -92,7 +94,6 @@ class game {
             speedReturn = this.getWidth() / 2;
             index = -1;
         }
-        // this.audio.play()
     }
 
     loop() {
@@ -241,6 +242,7 @@ class game {
             if (this.gg[i].alive == true)
                 check = false;
         return check;
+        
     }
 
     initGold() {
@@ -272,6 +274,7 @@ class game {
     range(x1, y1, x2, y2) {
         return Math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
     }
+
 }
 
 new game();
